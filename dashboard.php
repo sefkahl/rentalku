@@ -241,7 +241,7 @@ include  'connect.php';
 
 
     <footer class="main-footer">
-      <strong>Copyright &copy; 2026 <a href="https://adminlte.io">RentalKu</a>.</strong>
+      <strong>Copyright &copy; 2026 <a href="https://adminlte.io">RENTALKU</a>.</strong>
       All rights reserved.
       <div class="float-right d-none d-sm-inline-block"><b>IP.</b> 123.21.21
       </div>
