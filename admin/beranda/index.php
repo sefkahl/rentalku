@@ -1,50 +1,67 @@
+
 <div class="row">
-    <div class="col-lg-3 col-6">
+    <div class="col-lg col-md-4 col-6">
         <div class="small-box bg-warning">
-            <div class="inner">
-                <h3>150</h3>
-                <p>Data Barang</p>
+            <div class="inner p-2">
+                <h3 class="mb-1">150</h3>
+                <p class="mb-0">Data Mobil</p>
             </div>
             <div class="icon">
-                <i class="fas fa-cart-plus"></i>
+                <i class="fas fa-car"></i>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="#" class="small-box-footer py-1">More info <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
-    <div class="col-lg-3 col-6">
+
+    <div class="col-lg col-md-4 col-6">
         <div class="small-box bg-info">
-            <div class="inner">
-                <h3>53<sup style="font-size: 20px">%</sup></h3>
-                <p>Data Kategori</p>
+            <div class="inner p-2">
+                <h3 class="mb-1">53</h3>
+                <p class="mb-0">Data Kategori</p>
             </div>
             <div class="icon">
                 <i class="fas fa-layer-group"></i>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="#" class="small-box-footer py-1">More info <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
-    <div class="col-lg-3 col-12">
+
+    <div class="col-lg col-md-4 col-6">
         <div class="small-box bg-dark">
-            <div class="inner">
-                <h3>44</h3>
-                <p>Data Satuan</p>
+            <div class="inner p-2">
+                <h3 class="mb-1">44</h3>
+                <p class="mb-0">Data Satuan</p>
             </div>
             <div class="icon">
-                <i class="fas fa-box"></i>
+                <i class="fas fa-car-side"></i>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="#" class="small-box-footer py-1">More info <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
-    <div class="col-lg-3 col-6">
+
+    <div class="col-lg col-md-4 col-6">
         <div class="small-box bg-danger">
-            <div class="inner">
-                <h3>65</h3>
-                <p>Data Barang Keluar</p>
+            <div class="inner p-2">
+                <h3 class="mb-1">65</h3>
+                <p class="mb-0">Mobil Disewa</p>
             </div>
             <div class="icon">
-                <i class="ion ion-pie-graph"></i>
+                <i class="fas fa-key"></i>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="#" class="small-box-footer py-1">More info <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg col-md-4 col-6">
+        <div class="small-box bg-success">
+            <div class="inner p-2">
+                <h3 class="mb-1">25</h3>
+                <p class="mb-0">Transaksi</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-file-invoice"></i>
+            </div>
+            <a href="#" class="small-box-footer py-1">More info <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
 </div>

@@ -2,11 +2,11 @@
 if (isset($_GET['page'])) { $page = $_GET['page']; switch ($page) {
     
                         // ROUTERS DATA MOBIL
-case 'data-mobil'       :include "admin/mobil/index.php"; break;
-case 'edit-mobil'       :include "admin/mobil/edit-mobil.php"; break;
-case 'hapus-mobil'      :include "admin/mobil/hapus-mobil.php"; break;
-case 'tambah-mobil'     :include "admin/mobil/tambah-mobil.php"; break;
-case 'simpan-mobil'     :include "admin/mobil/simpan-mobil.php"; break;
+case 'data-mobil'       :include "admin/data-mobil/index.php"; break;
+case 'edit-mobil'       :include "admin/data-mobil/edit-mobil.php"; break;
+case 'hapus-mobil'      :include "admin/data-mobil/hapus-mobil.php"; break;
+case 'tambah-mobil'     :include "admin/data-mobil/tambah-mobil.php"; break;
+case 'simpan-mobil'     :include "admin/data-mobil/simpan-mobil.php"; break;
 
                         // ROUTERS DATA MOTOR
 case 'data-motor'       :include "admin/motor/index.php"; break;
