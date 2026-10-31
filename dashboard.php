@@ -17,8 +17,9 @@ include  'connect.php';
   <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
-  
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="publicc/assets/css/main.css"
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+  </script>
   <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
@@ -27,123 +28,7 @@ include  'connect.php';
 
 <body class="hold-transition sidebar-mini layout-fixed">
   <div class="wrapper">
-    <!-- <div class="preloader flex-column justify-content-center align-items-center">
-      <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-    </div> -->
-    <div class="rental-loader">
-
-      <div class="rental-animation">
-        <svg class="rental-tire" viewBox="0 0 120 120">
-          <defs>
-            <pattern id="rental-tire-pattern"
-              width="12" height="12"
-              patternUnits="userSpaceOnUse"
-              patternTransform="rotate(35)">
-              <path d="M0 0V12 M6 0V12"
-                stroke="#555" stroke-width="3" />
-            </pattern>
-          </defs>
-
-          <!-- Ban luar -->
-          <circle cx="60" cy="60" r="55" fill="#111" />
-          <circle cx="60" cy="60" r="49"
-            fill="url(#rental-tire-pattern)" />
-          <circle cx="60" cy="60" r="39" fill="#171717" />
-
-          <!-- Velg -->
-          <circle cx="60" cy="60" r="34" fill="#aaa" />
-          <circle cx="60" cy="60" r="29" fill="#252525" />
-
-          <!-- Jari-jari velg -->
-          <g stroke="#ddd" stroke-width="5" stroke-linecap="round">
-            <path d="M60 34V86 M34 60H86
-                         M42 42L78 78 M78 42L42 78" />
-          </g>
-
-          <!-- Tutup tengah -->
-          <circle cx="60" cy="60" r="11" fill="#aaa" />
-          <circle cx="60" cy="60" r="5" fill="#222" />
-        </svg>
-      </div>
-
-      <div class="rental-loading-text">RENTALKU</div>
-      <div class="rental-loading-sub">Menyiapkan perjalanan...</div>
-
-    </div>
-
-    <style>
-      .rental-loader {
-        position: fixed;
-        inset: 0;
-        z-index: 999999;
-        background: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-      }
-
-      .rental-animation {
-        position: relative;
-        width: 100%;
-        height: 125px;
-      }
-
-      .rental-tire {
-        position: absolute;
-        width: 100px;
-        height: 100px;
-        left: calc(50% - 50px);
-        top: 10px;
-        animation: rental-spin 1s linear infinite;
-      }
-
-      .rental-loading-text {
-        margin-top: 15px;
-        font-size: 17px;
-        font-weight: 800;
-        letter-spacing: 4px;
-        color: #171717;
-      }
-
-      .rental-tire {
-        animation: rental-spin 0.5s linear infinite;
-      }
-
-      .rental-loading-sub {
-        margin-top: 5px;
-        font-size: 11px;
-        color: #888;
-      }
-
-      @keyframes rental-spin {
-        from {
-          transform: rotate(0deg);
-        }
-
-        to {
-          transform: rotate(360deg);
-        }
-      }
-    </style>
-
-    <script>
-      window.addEventListener('load', function() {
-        const loader = document.querySelector('.rental-loader');
-
-        if (loader) {
-          setTimeout(function() {
-            loader.style.transition = 'opacity .3s ease';
-            loader.style.opacity = '0';
-
-            setTimeout(function() {
-              loader.remove();
-            }, 100);
-          }, 400);
-        }
-      });
-    </script>
+    <?php include 'publicc/pereload.php'; ?>
     <nav class="main-header navbar navbar-expand navbar-white navbar-light">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -152,31 +37,25 @@ include  'connect.php';
         <li class="nav-item d-none d-sm-inline-block">
           <a href="dashboard.php" class="nav-link">Home</a>
         </li>
-        <li class="nav-item d-none d-sm-inline-block">
-          <a href="dashboard.php" class="nav-link">Contact</a>
-        </li>
+
       </ul>
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-            <i class="fas fa-search"></i>
-          </a>
-          <div class="navbar-search-block">
-            <form class="form-inline">
-              <div class="input-group input-group-sm">
-                <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-                <div class="input-group-append">
-                  <button class="btn btn-navbar" type="submit">
-                    <i class="fas fa-search"></i>
-                  </button>
-                  <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-            </form>
+
+        <div class="dropdown">
+       <button class="nav-link text-secondary border-0 bg-transparent dropdown-toggle"
+    type="button" data-toggle="dropdown">
+    <i class="fas fa-moon"></i>
+</button>
+
+          <div class="dropdown-menu dropdown-menu-right">
+            <button class="dropdown-item" type="button" onclick="toggleDarkMode(true)">
+              Dark Mode
+            </button>
+            <button class="dropdown-item" type="button" onclick="toggleDarkMode(false)">
+              Light Mode
+            </button>
           </div>
-        </li>
+        </div>
 
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
@@ -258,19 +137,34 @@ include  'connect.php';
           </div>
         </div>
         <nav class="mt-2">
-          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-
+          <ul class="nav nav-pills nav-sidebar flex-column"
+            data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item">
-              <a href="dashboard.php" class="nav-link ">
-                <i class="nav-icon fas fa-home"></i>
-                <p>
-                  Dashboard
-                </p>
+              <a href="dashboard.php" class="nav-link">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <p>Dashboard</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">
-                <i class="nav-icon fas fa-user"></i>
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-database"></i>
+                <p>
+                  Master Data
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="dashboard.php?page=merk-mobil" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Merk Mobil</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-users-cog"></i>
                 <p>
                   Manajemen User
                   <i class="right fas fa-angle-left"></i>
@@ -278,56 +172,67 @@ include  'connect.php';
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="dashboard.php?page=user" class="nav-link">
+                  <a href="dashboard.php?page=admin" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Data Admin</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="dashboard.php?page=user" class="nav-link">
+                  <a href="dashboard.php?page=pelanggan" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Data Pelanggan</p>
                   </a>
                 </li>
               </ul>
+            </li>
             <li class="nav-item">
-              <a href="dashboard.php?page=data-mobil" class="nav-link ">
+              <a href="dashboard.php?page=data-mobil" class="nav-link">
                 <i class="nav-icon fas fa-car"></i>
-                <p>
-                  Data Mobil
-                </p>
+                <p>Data Mobil</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link ">
+              <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-motorcycle"></i>
-                <p>
-                  Data Motor
-                </p>
+                <p>Data Motor</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link ">
-                <i class="nav-icon fas fa-home"></i>
-                <p>
-                  Data Pelanggan
-                </p>
+              <a href="dashboard.php?page=pelanggan" class="nav-link">
+                <i class="nav-icon fas fa-user"></i>
+                <p>Data Pelanggan</p>
               </a>
             </li>
-            </li>
-            <li class="nav-header">Laporan</li>
             <li class="nav-item">
-              <a href="pages/calendar.html" class="nav-link">
-                <i class="nav-icon far fa-calendar-alt"></i>
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-chart-bar"></i>
                 <p>
-                  Transaksi
-                  <span class="badge badge-info right">2</span>
+                  Laporan
+                  <i class="right fas fa-angle-left"></i>
                 </p>
               </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="dashboard.php?page=sewa" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Data Sewa</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="dashboard.php?page=booking" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Data Booking</p>
+                  </a>
+                </li>
+              </ul>
             </li>
-
+            <li class="nav-item">
+              <a href="publicc/index.php" class="nav-link">
+                <i class="nav-icon fas fa-sign-left-alt"></i>
+                <p>Keluar</p>
+              </a>
+            </li>
           </ul>
-
         </nav>
       </div>
     </aside>
@@ -350,7 +255,7 @@ include  'connect.php';
       <!-- ROUTERS URL -->
       <section class="content">
         <div class="container-fluid">
-          <?php include "routes/web.php"; ?>
+          <?php include "routers/web.php"; ?>
         </div>
       </section>
     </div>
@@ -383,12 +288,13 @@ include  'connect.php';
   <script src="plugins/summernote/summernote-bs4.min.js"></script>
   <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
   <script src="dist/js/adminlte.js"></script>
-  <script src="dist/js/demo.js"></script>
+  <script src="dist/js/mode.js"></script>
   <script src="dist/js/pages/dashboard.js"></script>
   <script src="plugins/datatables/jquery.dataTables.min.js?v=2"></script>
   <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js?v=2"></script>
   <script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js?v=2"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="dist/js/demo.js"></script>
   <script>
     $(function() {
       $("#example1").DataTable({
@@ -402,18 +308,19 @@ include  'connect.php';
       });
     });
   </script>
-   <script>
-        $(function() {
-            // Summernote
-            $('#summernote').summernote()
+  <script>
+    $(function() {
+      // Summernote
+      $('#summernote').summernote()
 
-            // CodeMirror
-            CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
-                mode: "htmlmixed",
-                theme: "monokai"
-            });
-        })
-    </script>
+      // CodeMirror
+      CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
+        mode: "htmlmixed",
+        theme: "monokai"
+      });
+    })
+  </script>
+
 </body>
 
 </html>

@@ -1,6 +1,13 @@
 <?php
 if (isset($_GET['page'])) { $page = $_GET['page']; switch ($page) {
     
+                        // ROUTERS MERK MOBIL
+case 'merk-mobil'       :include "admin/merk-mobil/index.php"; break;
+case 'edit-merk'        :include "admin/merk-mobil/edit-merk.php"; break;
+case 'hapus-merk'       :include "admin/merk-mobil/hapus-merk.php"; break;
+case 'tambah-merk'      :include "admin/merk-mobil/tambah-merk.php"; break;
+case 'simpan-merk'      :include "admin/merk-mobil/simpan-merk.php"; break;
+
                         // ROUTERS DATA MOBIL
 case 'data-mobil'       :include "admin/data-mobil/index.php"; break;
 case 'edit-mobil'       :include "admin/data-mobil/edit-mobil.php"; break;
