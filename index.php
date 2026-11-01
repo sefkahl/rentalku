@@ -43,7 +43,7 @@
           <li><a href="publicc/blog.php">Blog</a></li>
 
           <li><a href="publicc/kontak.php">Kontak</a></li>
-          <a href="publicc/auth/index.php" class="btn btn-outline-secondary rounded-pill py-2">
+          <a href="auth/login/login.php" class="btn btn-outline-secondary rounded-pill py-2">
             Login
           </a>
         </ul>

@@ -157,7 +157,13 @@ include  'connect.php';
                 <li class="nav-item">
                   <a href="dashboard.php?page=merk-mobil" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Merk Mobil</p>
+                    <p>Merk Kendaraan</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="dashboard.php?page=diskon" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Diskon</p>
                   </a>
                 </li>
               </ul>
@@ -172,7 +178,7 @@ include  'connect.php';
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="dashboard.php?page=admin" class="nav-link">
+                  <a href="dashboard.php?page=user" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Data Admin</p>
                   </a>
@@ -192,7 +198,7 @@ include  'connect.php';
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="dashboard.php?page=data-motor" class="nav-link">
                 <i class="nav-icon fas fa-motorcycle"></i>
                 <p>Data Motor</p>
               </a>

@@ -1,6 +1,20 @@
 <?php
 if (isset($_GET['page'])) { $page = $_GET['page']; switch ($page) {
     
+                        // ROUTERS DATA DISKON
+case 'diskon'           :include "admin/diskon/index.php"; break;
+case 'edit-diskon'      :include "admin/diskon/edit-diskon.php"; break;
+case 'hapus-diskon'     :include "admin/diskon/hapus-diskon.php"; break;
+case 'tambah-diskon'    :include "admin/diskon/tambah-diskon.php"; break;
+case 'simpan-diskon'    :include "admin/diskon/simpan-diskon.php"; break;
+    
+                        // ROUTERS DATA PELANGGAN
+case 'pelanggan'        :include "admin/pelanggan/index.php"; break;
+case 'edit-pelanggan'   :include "admin/pelanggan/edit-pelanggan.php"; break;
+case 'hapus-pelanggan'  :include "admin/pelanggan/hapus-pelanggan.php"; break;
+case 'tambah-pelanggan' :include "admin/pelanggan/tambah-pelanggan.php"; break;
+case 'simpan-pelanggan' :include "admin/pelanggan/simpan-pelanggan.php"; break;
+                
                         // ROUTERS MERK MOBIL
 case 'merk-mobil'       :include "admin/merk-mobil/index.php"; break;
 case 'edit-merk'        :include "admin/merk-mobil/edit-merk.php"; break;
@@ -16,11 +30,11 @@ case 'tambah-mobil'     :include "admin/data-mobil/tambah-mobil.php"; break;
 case 'simpan-mobil'     :include "admin/data-mobil/simpan-mobil.php"; break;
 
                         // ROUTERS DATA MOTOR
-case 'data-motor'       :include "admin/motor/index.php"; break;
-case 'edit-motor'       :include "admin/motor/edit-motor.php"; break;
-case 'hapus-motor'      :include "admin/motor/hapus-motor.php"; break;
-case 'tambah-motor'     :include "admin/motor/tambah-motor.php"; break;
-case 'simpan-motor'     :include "admin/motor/simpan-motor.php"; break;
+case 'data-motor'       :include "admin/data-motor/index.php"; break;
+case 'edit-motor'       :include "admin/data-motor/edit-motor.php"; break;
+case 'hapus-motor'      :include "admin/data-motor/hapus-motor.php"; break;
+case 'tambah-motor'     :include "admin/data-motor/tambah-motor.php"; break;
+case 'simpan-motor'     :include "admin/data-motor/simpan-motor.php"; break;
 
                         // ROUTERS DATA USER
 case 'user'             :include "admin/user/index.php"; break;

@@ -1,54 +1,49 @@
 <?php
 if (isset($_POST['simpan_data'])) {
-    $username       = $_POST['username'];
-    $email          = $_POST['email'];
-    $role           = $_POST['role'];
-    $password       = $_POST['password'];
-    $copasword      = $_POST['copasword'];
-   if ($password != $copasword) {
-        echo "<script>
+    $username  = $_POST['username'];
+    $role      = $_POST['role'];
+    $email     = $_POST['email'];
+    $password  = $_POST['password'];
+    $copasword = $_POST['copasword'];
+
+    if ($password != $copasword) {
+        echo "
+        <script>
             Swal.fire({
-                icon: 'error',
-                title: 'Gagal!',
-                text: 'Konfirmasi password salah!',
-                confirmButtonText: 'OK'
+                icon: 'warning',
+                title: 'Password Tidak Cocok!',
+                text: 'Konfirmasi password harus sama.'
             }).then(() => {
-                window.history.back();
+                history.back();
             });
         </script>";
         exit;
     }
+
     $password = password_hash($password, PASSWORD_DEFAULT);
-    $sql = "INSERT INTO tbl_user (
-                username,
-                email,
-                role,
-                password
-            ) VALUES (
-                '$username',
-                '$email',
-                '$role',
-                '$password'
-            )";
+
+    $sql = "INSERT INTO tbl_user (username, role, email, password)
+            VALUES ('$username', '$role', '$email', '$password')";
 
     if (mysqli_query($connect, $sql)) {
-        echo "<script>
+        echo "
+        <script>
             Swal.fire({
                 icon: 'success',
                 title: 'Berhasil!',
-                text: 'Data berhasil disimpan.',
+                text: 'Data user berhasil disimpan.',
                 confirmButtonText: 'OK'
             }).then(() => {
                 window.location='dashboard.php?page=user';
             });
         </script>";
     } else {
-        echo "<script>
+        echo "
+        <script>
             Swal.fire({
                 icon: 'error',
                 title: 'Gagal!',
-                text: 'Data gagal disimpan.',
-                confirmButtonText: 'OK'
+                text: 'Data user gagal disimpan.'
             });
         </script>";
     }

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login/Signup Form</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../asset/style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
@@ -15,10 +15,10 @@
   <!-- credits to the writter @leonam-silva-de-souza -->
   <div class="container">
     <div class="form-box login">
-      <form action="proses_login.php" method="post">
+      <form action="login.php" method="post">
         <h1>Login</h1>
         <div class="input-box">
-          <input type="eamil" placeholder="email" name="eamil" required>
+          <input type="email" placeholder="email" name="email" required>
          <i class="fas fa-envelope"></i>
         </div>
         <div class="input-box">
@@ -28,7 +28,7 @@
         <div class="forgot-link">
           <a href="#">Forgot Password?</a>
         </div>
-        <button type="submit" class="btn">Login</button>
+        <button type="submit" name="proses-login" class="btn">Login</button>
         <p>or login with social platforms</p>
         <div class="social-icons">
           <a href="#"><i class="fab fa-google"></i></a>
@@ -52,7 +52,7 @@
       </div>
     </div>
   </div>
-  <script src="script.js"></script>
+  <script src="../asset/script.js"></script>
 </body>
 
 </html>
