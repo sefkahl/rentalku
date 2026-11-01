@@ -7,8 +7,8 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="publicc/assets/img/favicon.png" rel="icon">
+  <link href="publicc/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -16,34 +16,34 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="publicc/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="publicc/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="publicc/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="publicc/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="publicc/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="publicc/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="publicc/assets/css/main.css" rel="stylesheet">
 </head>
 
 <body class="index-page">
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
-      <a href="index.php" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo.png" alt="">
+      <a href="publicc/index.php" class="logo d-flex align-items-center me-auto">
+        <img src="publicc/assets/img/logo.png" alt="">
         <h1 class="sitename">RENTALKU</h1>
       </a>
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.php" class="active">Home<br></a></li>
-          <li><a href="mobil.php">Mobil</a></li>
-          <li><a href="motor.php">Motor</a></li>
-          <li><a href="layanan.php">Layanan</a></li>
-          <li><a href="sewa.php">Cara Sewa</a></li>
-          <li><a href="booking.php">Cek Booking</a></li>
-          <li><a href="blog.php">Blog</a></li>
+          <li><a href="publicc/index.php" class="active">Home<br></a></li>
+          <li><a href="publicc/mobil.php">Mobil</a></li>
+          <li><a href="publicc/motor.php">Motor</a></li>
+          <li><a href="publicc/layanan.php">Layanan</a></li>
+          <li><a href="publicc/sewa.php">Cara Sewa</a></li>
+          <li><a href="publicc/booking.php">Cek Booking</a></li>
+          <li><a href="publicc/blog.php">Blog</a></li>
 
-          <li><a href="kontak.php">Kontak</a></li>
-          <a href="auth/index.php" class="btn btn-outline-secondary rounded-pill py-2">
+          <li><a href="publicc/kontak.php">Kontak</a></li>
+          <a href="publicc/auth/index.php" class="btn btn-outline-secondary rounded-pill py-2">
             Login
           </a>
         </ul>
@@ -59,7 +59,7 @@
   <main class="main">
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <img src="assets/img/world-dotted-map.png" alt="" class="hero-bg" data-aos="fade-in">
+      <img src="publicc/assets/img/world-dotted-map.png" alt="" class="hero-bg" data-aos="fade-in">
       <div class="container">
         <div class="row gy-4 d-flex justify-content-between">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
@@ -75,131 +75,127 @@
                     class="purecounter">232</span>
                   <p>Clients</p>
                 </div>
-              </div><!-- End Stats Item -->
+              </div>
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
                   <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="0"
                     class="purecounter">521</span>
                   <p>Projects</p>
                 </div>
-              </div><!-- End Stats Item -->
+              </div>
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
                   <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="0"
                     class="purecounter">1453</span>
                   <p>Support</p>
                 </div>
-              </div><!-- End Stats Item -->
+              </div>
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
                   <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="0"
                     class="purecounter">32</span>
                   <p>Workers</p>
                 </div>
-              </div><!-- End Stats Item -->
+              </div>
             </div>
 
           </div>
 
           <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="assets/img/header1.png" width="700" height="700" class="img-fluid mb-3 mb-lg-0"
+            <img src="publicc/assets/img/header1.png" width="700" height="700" class="img-fluid mb-3 mb-lg-0"
               alt="PILIH MOBIL ANDA">
           </div>
 
         </div>
       </div>
 
-    </section><!-- /Hero Section -->
-    <!-- Services Section -->
+    </section>
     <section id="services" class="services section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span>PILIH KENDARAAN ANDA<br></span>
         <h2>Pilih Kendaraan An</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
+      </div>
+            <div class="container">
 
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-1.jpg" alt="" class="img-fluid">
+                <img src="publicc/assets/img/service-1.jpg" alt="" class="img-fluid">
               </div>
               <h3>Storage</h3>
               <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus
                 temporibus itaqueofficiis odit</p>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-2.jpg" alt="" class="img-fluid">
+                <img src="publicc/assets/img/service-2.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="#" class="stretched-link">Logistics</a></h3>
               <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt molestiae
                 dolor ipsam ducimus occaecati nisi</p>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-3.jpg" alt="" class="img-fluid">
+                <img src="publicc/assets/img/service-3.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="#" class="stretched-link">Cargo</a></h3>
               <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem
                 aut et molestiae ut et nihil</p>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-4.jpg" alt="" class="img-fluid">
+                <img src="publicc/assets/img/service-4.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="#" class="stretched-link">Trucking</a></h3>
               <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem
                 aut et molestiae ut et nihil</p>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-5.jpg" alt="" class="img-fluid">
+                <img src="publicc/assets/img/service-5.jpg" alt="" class="img-fluid">
               </div>
               <h3>Packaging</h3>
               <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores
                 beatae consequatur magni voluptates</p>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/service-6.jpg" alt="" class="img-fluid">
+                <img src="publicc/assets/img/service-6.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="#" class="stretched-link">Warehousing</a></h3>
               <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut
                 nostrum unde et qui est non quo nulla</p>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section>
 
-    <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section dark-background">
 
-      <img src="assets/img/cta-bg.jpg" alt="">
+      <img src="publicc/assets/img/cta-bg.jpg" alt="">
 
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
@@ -215,23 +211,20 @@
         </div>
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section>
 
-    <!-- Features Section -->
     <section id="features" class="features section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span>Features</span>
         <h2>Features</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
+            <img src="publicc/assets/img/features-1.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
@@ -247,11 +240,11 @@
               <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span></li>
             </ul>
           </div>
-        </div><!-- Features Item -->
+        </div>
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
+            <img src="publicc/assets/img/features-2.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
             <h3>Corporis temporibus maiores provident</h3>
@@ -267,11 +260,11 @@
               culpa qui officia deserunt mollit anim id est laborum
             </p>
           </div>
-        </div><!-- Features Item -->
+        </div>
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/features-3.jpg" class="img-fluid" alt="">
+            <img src="publicc/assets/img/features-3.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7" data-aos="fade-up">
             <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
@@ -285,11 +278,11 @@
               </li>
             </ul>
           </div>
-        </div><!-- Features Item -->
+        </div>
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/features-4.jpg" class="img-fluid" alt="">
+            <img src="publicc/assets/img/features-4.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
             <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
@@ -305,21 +298,20 @@
               culpa qui officia deserunt mollit anim id est laborum
             </p>
           </div>
-        </div><!-- Features Item -->
+        </div>
 
       </div>
 
-    </section><!-- /Features Section -->
+    </section>
 
-    <!-- Pricing Section -->
+   
     <section id="pricing" class="pricing section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title" data-aos="fade-up">
         <span>Pricing</span>
         <h2>Pricing</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
@@ -379,7 +371,7 @@
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section dark-background">
 
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+      <img src="publicc/assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -403,7 +395,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="publicc/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Saul Goodman</h3>
                 <h4>Ceo &amp; Founder</h4>
                 <div class="stars">
@@ -421,7 +413,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="publicc/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
                 <div class="stars">
@@ -439,7 +431,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="publicc/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
                 <div class="stars">
@@ -457,7 +449,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="publicc/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
                 <div class="stars">
@@ -476,7 +468,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <img src="publicc/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
                 <div class="stars">
@@ -504,12 +496,11 @@
     <!-- Faq Section -->
     <section id="faq" class="faq section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title" data-aos="fade-up">
         <span>Frequently Asked Questions</span>
         <h2>Frequently Asked Questions</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
@@ -609,20 +600,20 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Navigasi</h4>
           <ul>
-            <li><a href="index.php">Beranda</a></li>
-            <li><a href="mobil.php">Sewa Mobil</a></li>
-            <li><a href="motor.php">Sewa Motor</a></li>
-            <li><a href="layanan.php">layanan</a></li>
+            <li><a href="publicc/index.php">Beranda</a></li>
+            <li><a href="publicc/mobil.php">Sewa Mobil</a></li>
+            <li><a href="publicc/motor.php">Sewa Motor</a></li>
+            <li><a href="publicc/layanan.php">layanan</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Informasi</h4>
           <ul>
-            <li><a href="sewa.php">Cara Sewa</a></li>
-            <li><a href="booking.php">Cek Booking</a></li>
-            <li><a href="blog.php">Blog</a></li>
-            <li><a href="kontak.php">Kontak</a></li>
+            <li><a href="publicc/sewa.php">Cara Sewa</a></li>
+            <li><a href="publicc/booking.php">Cek Booking</a></li>
+            <li><a href="publicc/blog.php">Blog</a></li>
+            <li><a href="publicc/kontak.php">Kontak</a></li>
           </ul>
         </div>
 
@@ -650,18 +641,18 @@
       class="bi bi-arrow-up-short"></i></a>
   <!-- Preloader -->
   <!-- <div id="preloader"></div> -->
-<?php include 'pereload.php' ; ?>
+<?php include 'publicc/pereload.php' ; ?>
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/sweetalert2/sweetalert2.all.min.js"></script>
-  <script src="assets/js/dark-mode.js"></script>
+  <script src="publicc/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="publicc/assets/vendor/php-email-form/validate.js"></script>
+  <script src="publicc/assets/vendor/aos/aos.js"></script>
+  <script src="publicc/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="publicc/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="publicc/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="publicc/assets/vendor/sweetalert2/sweetalert2.all.min.js"></script>
+  <script src="publicc/assets/js/dark-mode.js"></script>
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="publicc/assets/js/main.js"></script>
 
 </body>
 

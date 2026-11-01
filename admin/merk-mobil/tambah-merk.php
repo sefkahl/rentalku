@@ -19,10 +19,8 @@
                </div>
          </div>
          <div class="mt-3 mb-3 text-right text-right pr-3">
-            <button type="submit" name="simpan_data" class="btn btn-success">
-               <i class="fas fa-save"></i> Simpan</button>
-            <button type="reset" class="btn btn-danger">
-               <i class="fas fa-sync fa-spin"></i> Reset</button>
+         <button type="submit" name="simpan_data" class="btn btn-success"><i class="fas fa-save"></i> Simpan</button>
+         <button type="reset" class="btn btn-danger"><i class="fas fa-sync fa-spin"></i> Reset</button>
          </div>
          </form>
       </div>

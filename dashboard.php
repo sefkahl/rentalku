@@ -17,8 +17,8 @@ include  'connect.php';
   <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
-  <link rel="stylesheet" href="publicc/assets/css/main.css"
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+  <link rel="stylesheet" href="publicc/assets/css/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11">
   </script>
   <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
@@ -42,10 +42,10 @@ include  'connect.php';
       <ul class="navbar-nav ml-auto">
 
         <div class="dropdown">
-       <button class="nav-link text-secondary border-0 bg-transparent dropdown-toggle"
-    type="button" data-toggle="dropdown">
-    <i class="fas fa-moon"></i>
-</button>
+          <button class="nav-link text-secondary border-0 bg-transparent dropdown-toggle"
+            type="button" data-toggle="dropdown">
+            <i class="fas fa-moon"></i>
+          </button>
 
           <div class="dropdown-menu dropdown-menu-right">
             <button class="dropdown-item" type="button" onclick="toggleDarkMode(true)">
@@ -227,7 +227,7 @@ include  'connect.php';
               </ul>
             </li>
             <li class="nav-item">
-              <a href="publicc/index.php" class="nav-link">
+              <a href="index.php" class="nav-link">
                 <i class="nav-icon fas fa-sign-left-alt"></i>
                 <p>Keluar</p>
               </a>

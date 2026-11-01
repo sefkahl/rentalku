@@ -41,13 +41,13 @@
 
    <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
-      <a href="index.php" class="logo d-flex align-items-center me-auto">
+      <a href="../index.php" class="logo d-flex align-items-center me-auto">
         <img src="assets/img/logo.png" alt="">
         <h1 class="sitename">RENTALKU</h1>
       </a>
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.php" class="active">Home<br></a></li>
+          <li><a href="../index.php" class="active">Home<br></a></li>
           <li><a href="mobil.php">Mobil</a></li>
           <li><a href="motor.php">Motor</a></li>
           <li><a href="layanan.php">Layanan</a></li>
@@ -79,7 +79,7 @@
         <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li class="current">Service Details</li>
           </ol>
         </nav>
@@ -155,7 +155,7 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Navigasi</h4>
           <ul>
-            <li><a href="index.php">Beranda</a></li>
+            <li><a href="../index.php">Beranda</a></li>
             <li><a href="mobil.php">Sewa Mobil</a></li>
             <li><a href="motor.php">Sewa Motor</a></li>
             <li><a href="layanan.php">layanan</a></li>
