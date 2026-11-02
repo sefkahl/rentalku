@@ -33,7 +33,7 @@ CREATE TABLE `tbl_diskon` (
   `persentase` int NOT NULL,
   `minimal_hari` int NOT NULL,
   `status` enum('Aktif','Tidak Aktif') DEFAULT 'Aktif'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `tbl_diskon`
@@ -52,7 +52,7 @@ CREATE TABLE `tbl_merk` (
   `id` int NOT NULL,
   `nama_merk` varchar(200) NOT NULL,
   `status` tinyint(1) NOT NULL DEFAULT '1'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `tbl_merk`
@@ -87,7 +87,7 @@ CREATE TABLE `tbl_mobil` (
   `foto_mobil` varchar(200) NOT NULL,
   `deskripsi` varchar(255) NOT NULL,
   `status` enum('Tersedia','Disewa','Services') NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `tbl_mobil`
@@ -117,7 +117,7 @@ CREATE TABLE `tbl_motor` (
   `status` enum('Tersedia','Disewa','Services') DEFAULT 'Tersedia',
   `deskripsi` text,
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -135,7 +135,7 @@ CREATE TABLE `tbl_pelanggan` (
   `foto` varchar(255) DEFAULT NULL,
   `status` enum('Aktif','Tidak Aktif') DEFAULT 'Aktif',
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `tbl_pelanggan`
@@ -154,9 +154,9 @@ CREATE TABLE `tbl_user` (
   `id` int NOT NULL,
   `username` varchar(20) NOT NULL,
   `email` varchar(30) NOT NULL,
-  `role` enum('Admin','Petugas') CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `role` enum('Admin','Petugas') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `password` varchar(200) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `tbl_user`

@@ -1,13 +1,14 @@
 <?php
 session_start();
-include "../connect.php";
 
-if (isset($_POST['proses-login'])) {
+include "../../connect.php";
+
+if (isset($_POST['proses_login'])) {
     $email    = mysqli_real_escape_string($connect, $_POST['email']);
     $password = $_POST['password'];
     $sql      = "SELECT * FROM tbl_user WHERE email = '$email' LIMIT 1";
     $query    = mysqli_query($connect, $sql);
-    $data      = mysqli_fetch_assoc($query);
+    $data     = mysqli_fetch_assoc($query);
 
     if ($data && password_verify($password, $data['password'])) {
         session_regenerate_id(true);
@@ -32,7 +33,7 @@ if (isset($_POST['proses-login'])) {
                 text: "Email atau password salah.",
                 confirmButtonText: "OK"
             }).then(function() {
-                window.location.replace("index.php");
+                window.location.replace("login.php");
             });
         };
         </script>
